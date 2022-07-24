@@ -1,25 +1,27 @@
 body {
-  background-color: rgb(181, 227, 243);
+  background-color: rgb(164, 186, 247);
   font-family: "Joan", serif;
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin: 1% 1% 1% 1%;
+  color: black;
 }
 .container-0 {
-  background-color: rgb(191, 127, 250);
+  background-color: rgb(204, 156, 248);
   opacity: 0.9;
   border-radius: 8px;
   margin: 1% 1% 1% 1%;
 }
 .container-1 {
-  background-color: rgb(108, 108, 195);
+  background-color: rgb(141, 141, 229);
   opacity: 0.8;
   border-radius: 8px;
-  margin: 1% 1% 1% 1%;
+  margin: 2% 2% 2% 2%;
 }
 .container-2 {
-  background-color: rgb(114, 132, 223);
+  background-color: rgb(144, 162, 247);
   border-radius: 4px;
+  margin: 4% 4% 4% 4%;
 }
 h1,
 h2,
@@ -32,9 +34,22 @@ h1 {
   margin: 0 auto;
   font-size: larger;
   font-family: "Poppins", sans-serif;
-  padding: 20% 20% 20% 20%;
+  padding: 10% 10% 10% 10%;
   color: white;
 }
 .navbar {
   border-radius: 8px;
+}
+.blog {
+  border-radius: 8px;
+  background-color: rgb(181, 163, 247);
+  border: rgb(181, 46, 248);
+  padding: 5% 5% 5% 5%;
+  margin: 4% 4% 4% 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+.heading {
+  padding: 4% 4% 4% 4%;
 }
