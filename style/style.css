@@ -1,5 +1,40 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(181, 227, 243);
   font-family: "Joan", serif;
   font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 1% 1% 1% 1%;
+}
+.container-0 {
+  background-color: rgb(191, 127, 250);
+  opacity: 0.9;
+  border-radius: 8px;
+  margin: 1% 1% 1% 1%;
+}
+.container-1 {
+  background-color: rgb(108, 108, 195);
+  opacity: 0.8;
+  border-radius: 8px;
+  margin: 1% 1% 1% 1%;
+}
+.container-2 {
+  background-color: rgb(114, 132, 223);
+  border-radius: 4px;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: white;
+}
+h1 {
+  margin: 0 auto;
+  font-size: larger;
+  font-family: "Poppins", sans-serif;
+  padding: 20% 20% 20% 20%;
+  color: white;
+}
+.navbar {
+  border-radius: 8px;
 }
