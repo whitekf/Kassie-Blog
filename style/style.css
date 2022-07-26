@@ -1,5 +1,6 @@
 :root {
   --primaryBG: rgb(211, 248, 255);
+  --primaryFont: "Joan", serif;
 }
 
 body {
@@ -14,34 +15,53 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Joan", serif;
+  font-family: var(--primaryFont);
 }
 h1 {
-  font-family: "Joan", serif;
+  font-family: var(--primaryFont);
   color: rgb(0, 0, 0);
   text-align: center;
 }
 .container {
   background-color: var(--primaryBG);
 }
-.banner {
+.indexBanner {
   background-color: rgb(236, 251, 255);
   padding-top: 3%;
   padding-bottom: 3%;
   border-radius: 8px;
+  border: 2px solid black;
 }
 .btn-getStarted {
   background-color: rgb(148, 148, 242);
 }
-.paragraph {
+.paragraphMain {
   background-color: white;
   padding: 20px 20px 20px 20px;
   border-radius: 12px;
+  line-height: 1.5;
+  font-size: 18px;
 }
+
 footer {
   background-color: rgb(211, 255, 255);
   margin: 10ox 10ox 10px 10px;
 }
+.containerK {
+  background-color: rgb(255, 250, 241);
+  padding: 25px 0px 25px 0px;
+  font-weight: 500;
+  border: 1px solid rgb(42, 42, 42);
+}
+.containerKass {
+  background-color: bisque;
+  padding: 20px 0 20px 0;
+}
+.mainHead {
+  font-size: 32px;
+  font-weight: 500;
+}
+
 .adviceParagraph {
   margin: 20px 20px 20px 20px;
   padding: 50px 50px 50px 50px;
@@ -51,6 +71,8 @@ footer {
 }
 .kassieSip {
   box-shadow: 1px 5px 5px;
+  text-align: center;
+  align-items: center;
 }
 
 .myBanner {
