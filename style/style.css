@@ -23,6 +23,7 @@ h1 {
 }
 .container {
   background-color: var(--primaryBG);
+  box-shadow: 1px 2px 5px;
 }
 .indexBanner {
   background-color: rgb(236, 251, 255);
@@ -32,19 +33,26 @@ h1 {
     rgba(211, 248, 255, 1) 35%,
     rgba(200, 240, 250, 1) 100%
   );
-
   padding-top: 3%;
   padding-bottom: 3%;
   border-radius: 8px;
+  margin-left: 2%;
+  margin-right: 2%;
   margin-top: 5%;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 .btn-getStarted {
   background-color: rgb(148, 148, 242);
 }
-btn.button {
-  background-color: bisque;
+.btn.btn-branding-outline {
+  background-color: antiquewhite;
   box-shadow: 1px 1px 1px black;
+}
+.btn.btn-branding-outline:hover {
+  background-color: rgb(102, 213, 219);
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+  box-shadow: 3px 4px 6px rgb(255, 245, 234);
 }
 #contact {
   border-radius: 12px;
@@ -59,6 +67,7 @@ btn.button {
   margin-right: 25px;
   line-height: 1.5;
   font-size: 18px;
+  box-shadow: 1px 2px 5px;
 }
 .contentMain {
   background-color: rgb(255, 252, 246);
@@ -78,14 +87,16 @@ btn.button {
   margin-right: 5%;
   line-height: 1.5;
   font-size: 16px;
+  box-shadow: 1px 2px 5px;
 }
 a {
   padding: 10px 10px 10px 10px;
 }
 footer {
   margin-top: 5%;
-  background-color: rgb(211, 255, 255);
+  background-color: rgb(227, 248, 255);
   margin: 10ox 10ox 10px 10px;
+  padding: 20px 10px 30px 10px;
 }
 .containerK {
   background-color: rgb(255, 250, 241);
@@ -100,37 +111,46 @@ footer {
   margin-left: 5%;
   margin-right: 5%;
   font-family: "Poppins", sans-serif;
+  box-shadow: 1px 1px 1px;
 }
 .containerKassie {
   background-color: bisque;
   padding: 20px 20px 20px 20px;
   margin-left: 100px;
   margin-right: 100px;
+  box-shadow: 1px 1px 1px;
 }
 .mainHead {
   font-weight: 700;
 }
+
 .adviceParagraph {
   margin: 20px 20px 20px 20px;
+  margin-left: 15%;
+  margin-right: 15%;
   padding: 50px 50px 50px 50px;
   background-color: rgb(243, 253, 255);
   line-height: 1.8;
   font-family: "Poppins", sans-serif;
+  box-shadow: 1px 2px 5px;
 }
 .kassieSip {
-  box-shadow: 1px 5px 5px;
+  box-shadow: 1px 2px 5px;
   text-align: center;
   align-items: center;
   text-decoration: none;
 }
 .googleButton {
   border-radius: 5px;
-  background-color: rgb(210, 242, 255);
+  background-color: rgb(230, 248, 255);
   font-weight: bold;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .googleButton:hover {
   border-radius: 5px;
-  background-color: rgb(217, 242, 250);
+  background-color: rgb(245, 250, 217);
   font-weight: bold;
   box-shadow: 3px 3px rgb(253, 255, 220);
   cursor: pointer;
@@ -155,7 +175,10 @@ footer {
   border: 1px solid black;
 }
 .kassBorder {
-  border: 55px solid bisque;
+  border: 45px solid bisque;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 7%;
 }
 .kassBasicBorder {
   border: 5px solid black;
@@ -165,8 +188,7 @@ footer {
     font-size: 18px;
     text-align: center;
   }
-}
-@media (min-width: 900px) {
+
   h1 {
     color: black;
   }
