@@ -1,13 +1,16 @@
 :root {
   --primaryBG: rgb(211, 248, 255);
   --primaryFont: "Joan", serif;
+  
 }
 
 body {
   font-family: "Joan", serif;
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
+  
 }
+
 h1,
 h2,
 h3,
@@ -24,6 +27,7 @@ h1 {
 .container {
   background-color: var(--primaryBG);
   box-shadow: 1px 2px 5px;
+  
 }
 .indexBanner {
   background-color: rgb(236, 251, 255);
@@ -40,6 +44,7 @@ h1 {
   margin-right: 2%;
   margin-top: 5%;
   border: 2px solid black;
+  
 }
 .btn-getStarted {
   background-color: rgb(148, 148, 242);
@@ -78,6 +83,7 @@ h1 {
   line-height: 1.5;
   font-size: 18px;
   text-align: center;
+  
 }
 .paragraph {
   background-color: white;
