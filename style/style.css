@@ -42,6 +42,15 @@ h1 {
 .btn-getStarted {
   background-color: rgb(148, 148, 242);
 }
+btn.button {
+  background-color: bisque;
+  box-shadow: 1px 1px 1px black;
+}
+#contact {
+  border-radius: 12px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
 .paragraphMain {
   background-color: white;
   padding: 20px 20px 20px 20px;
@@ -89,6 +98,7 @@ footer {
   background-color: rgb(255, 238, 218);
   padding: 20px 0 20px 0;
   margin-left: 5%;
+  margin-right: 5%;
   font-family: "Poppins", sans-serif;
 }
 .containerKassie {
@@ -98,7 +108,7 @@ footer {
   margin-right: 100px;
 }
 .mainHead {
-  font-weight: 500;
+  font-weight: 700;
 }
 .adviceParagraph {
   margin: 20px 20px 20px 20px;
@@ -111,6 +121,19 @@ footer {
   box-shadow: 1px 5px 5px;
   text-align: center;
   align-items: center;
+  text-decoration: none;
+}
+.googleButton {
+  border-radius: 5px;
+  background-color: rgb(210, 242, 255);
+  font-weight: bold;
+}
+.googleButton:hover {
+  border-radius: 5px;
+  background-color: rgb(217, 242, 250);
+  font-weight: bold;
+  box-shadow: 3px 3px rgb(253, 255, 220);
+  cursor: pointer;
 }
 .myBanner {
   background: var(--secondary-color);
@@ -124,6 +147,9 @@ footer {
   padding: 20px 10px 20px 10px;
   border: 1px solid black;
 }
+.navbar {
+  font-weight: 700;
+}
 .navbar:hover {
   font-weight: bold;
   border: 1px solid black;
@@ -133,4 +159,15 @@ footer {
 }
 .kassBasicBorder {
   border: 5px solid black;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+@media (min-width: 900px) {
+  h1 {
+    color: black;
+  }
 }
