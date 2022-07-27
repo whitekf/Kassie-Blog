@@ -181,7 +181,7 @@ footer {
   margin-top: 7%;
 }
 .kassBasicBorder {
-  border: 5px solid black;
+  border: 5px solid antiquewhite;
 }
 @media (max-width: 900px) {
   h1 {

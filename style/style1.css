@@ -43,8 +43,9 @@ h1 {
 .blog {
   border-radius: 8px;
   background-color: rgb(181, 163, 247);
+  color: black;
   border: rgb(181, 46, 248);
-  padding: 5% 5% 5% 5%;
+  padding: 5% 15% 5% 15%;
   margin: 4% 4% 4% 4%;
   margin-left: 10%;
   margin-right: 10%;
@@ -52,6 +53,8 @@ h1 {
 }
 .heading {
   padding: 4% 4% 4% 4%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 img.resize {
   max-width: 80%;
