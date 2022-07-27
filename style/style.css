@@ -26,6 +26,13 @@ h1 {
 }
 .indexBanner {
   background-color: rgb(236, 251, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(231, 248, 255, 1) 0%,
+    rgba(211, 248, 255, 1) 35%,
+    rgba(200, 240, 250, 1) 100%
+  );
+
   padding-top: 3%;
   padding-bottom: 3%;
   border-radius: 8px;
@@ -44,14 +51,27 @@ h1 {
   line-height: 1.5;
   font-size: 18px;
 }
-.paragraph {
-  background-color: white;
+.contentMain {
+  background-color: rgb(255, 252, 246);
   padding: 20px 20px 20px 20px;
   border-radius: 12px;
   margin-left: 25px;
-  margin-right: 55px;
+  margin-right: 25px;
   line-height: 1.5;
   font-size: 18px;
+  text-align: center;
+}
+.paragraph {
+  background-color: white;
+  padding: 40px 40px 40px 40px;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5;
+  font-size: 16px;
+}
+a {
+  padding: 10px 10px 10px 10px;
 }
 footer {
   margin-top: 5%;
@@ -63,16 +83,22 @@ footer {
   padding: 25px 0px 25px 0px;
   font-weight: 500;
   border: 1px solid rgb(42, 42, 42);
+  margin-bottom: 2%;
 }
 .containerKass {
-  background-color: bisque;
+  background-color: rgb(255, 238, 218);
   padding: 20px 0 20px 0;
+  margin-left: 5%;
+}
+.containerKassie {
+  background-color: bisque;
+  padding: 20px 20px 20px 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .mainHead {
-  font-size: 32px;
   font-weight: 500;
 }
-
 .adviceParagraph {
   margin: 20px 20px 20px 20px;
   padding: 50px 50px 50px 50px;
@@ -92,8 +118,18 @@ footer {
 }
 .workImg {
   border-radius: 10px;
+  background-color: rgb(239, 253, 255);
+  margin: 20px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
+  border: 1px solid black;
 }
 .navbar:hover {
   font-weight: bold;
   border: 1px solid black;
+}
+.kassBorder {
+  border: 55px solid bisque;
+}
+.kassBasicBorder {
+  border: 5px solid black;
 }
