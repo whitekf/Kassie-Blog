@@ -50,6 +50,10 @@ h1 {
   margin-top: 5%;
   border: 2px solid black;
 }
+.workP {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .workRowL {
   background: linear-gradient(
     90deg,
@@ -96,10 +100,8 @@ h1 {
 }
 .contentMain {
   background-color: rgb(255, 252, 246);
-  padding: 20px 20px 20px 20px;
+  padding: 20px 0px 20px 0px;
   border-radius: 12px;
-  margin-left: 25px;
-  margin-right: 25px;
   line-height: 1.5;
   font-size: 18px;
   text-align: center;
@@ -176,8 +178,8 @@ footer {
   background-color: rgb(230, 248, 255);
   font-weight: bold;
   align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 .googleButton:hover {
   border-radius: 5px;
