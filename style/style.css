@@ -188,6 +188,7 @@ footer {
   box-shadow: 3px 3px rgb(253, 255, 220);
   cursor: pointer;
 }
+
 .myBanner {
   background: var(--secondary-color);
   text-align: center;
@@ -224,5 +225,18 @@ footer {
 
   h1 {
     color: black;
+  }
+  .certificateM {
+    max-width: 150px;
+  }
+  .adviceParagraph {
+    margin: 10px 10px 10px 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(243, 253, 255);
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 1px 2px 5px;
   }
 }
