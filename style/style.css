@@ -50,6 +50,12 @@ h1 {
   margin-top: 5%;
   border: 2px solid black;
 }
+.certificateSection {
+  padding: 20px 20px 20px 20px;
+}
+.certificate {
+  margin: 30px auto;
+}
 .workP {
   margin-left: 5%;
   margin-right: 5%;
