@@ -144,7 +144,7 @@ footer {
 }
 .containerK {
   background-color: rgb(255, 250, 241);
-  padding: 25px 0px 25px 0px;
+  padding: 15px 0px 15px 0px;
   font-weight: 500;
   border: 1px solid rgb(42, 42, 42);
   margin-bottom: 2%;
@@ -219,11 +219,12 @@ footer {
   font-weight: bold;
   border: 1px solid black;
 }
+
 .kassBorder {
-  border: 45px solid bisque;
+  border: 35px solid bisque;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 .kassBasicBorder {
   border: 5px solid antiquewhite;
@@ -250,4 +251,5 @@ footer {
     font-family: "Poppins", sans-serif;
     box-shadow: 1px 2px 5px;
   }
+  
 }
