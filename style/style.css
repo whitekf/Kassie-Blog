@@ -221,9 +221,9 @@ footer {
 }
 
 .kassBorder {
-  border: 35px solid bisque;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  border: 20px solid bisque;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 5%;
 }
 .kassBasicBorder {
@@ -251,5 +251,4 @@ footer {
     font-family: "Poppins", sans-serif;
     box-shadow: 1px 2px 5px;
   }
-  
 }
