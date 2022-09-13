@@ -117,6 +117,17 @@ h1 {
   font-size: 18px;
   text-align: center;
 }
+
+.aboutParagraph {
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  border-radius: 12px;
+  margin-left: 2%;
+  margin-right: 2%;
+  line-height: 1.5;
+  font-size: 16px;
+  box-shadow: 1px 2px 5px;
+}
 .paragraph {
   background-color: white;
   padding: 40px 40px 40px 40px;
